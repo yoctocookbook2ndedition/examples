@@ -1,0 +1,22 @@
+QMAKE_CXX.INCDIRS = \
+    /opt/poky/2.4/sysroots/cortexa9hf-neon-poky-linux-gnueabi/usr/include/c++/7.2.0 \
+    /opt/poky/2.4/sysroots/cortexa9hf-neon-poky-linux-gnueabi/usr/include/c++/7.2.0/arm-poky-linux-gnueabi \
+    /opt/poky/2.4/sysroots/cortexa9hf-neon-poky-linux-gnueabi/usr/include/c++/7.2.0/backward \
+    /opt/poky/2.4/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.2.0/include \
+    /opt/poky/2.4/sysroots/cortexa9hf-neon-poky-linux-gnueabi/usr/lib/gcc/arm-poky-linux-gnueabi/7.2.0/include \
+    /opt/poky/2.4/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.2.0/include-fixed \
+    /opt/poky/2.4/sysroots/cortexa9hf-neon-poky-linux-gnueabi/usr/include
+QMAKE_CXX.LIBDIRS = \
+    /opt/poky/2.4/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.2.0 \
+    /opt/poky/2.4/sysroots/cortexa9hf-neon-poky-linux-gnueabi/lib \
+    /opt/poky/2.4/sysroots/cortexa9hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/7.2.0 \
+    /opt/poky/2.4/sysroots/cortexa9hf-neon-poky-linux-gnueabi/usr/lib
+QMAKE_CXX.QT_COMPILER_STDCXX = 201402L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 7
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 2
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
